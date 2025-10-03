@@ -9,16 +9,12 @@
 
     <!-- Label Hello World  -->
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/ola_mundo"
-        android:textSize="30sp"
-        android:textStyle="bold|italic"
-        android:textColor="@color/red"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Labels" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
